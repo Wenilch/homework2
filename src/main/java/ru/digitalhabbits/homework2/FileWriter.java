@@ -35,7 +35,7 @@ public class FileWriter
 				}
 
 				for (var lineData : writeData) {
-					fileWriter.write(String.format("%s %d/n", lineData.getKey(), lineData.getValue()));
+					fileWriter.write(String.format("%s %d%n", lineData.getKey(), lineData.getValue()));
 				}
 			}
 		} catch (IOException exception) {
